@@ -14,7 +14,7 @@ export function Voter(updateVote) {
     updateVote()
       .then(() => {
         const message = document.createElement("p");
-        message.textContent = "Liked";
+        message.textContent = "Optimistically";
 
         container.appendChild(message);
         button.remove();
